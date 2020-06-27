@@ -1,0 +1,44 @@
+/*[class*='col'] {
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(175, 165, 165);
+  min-height: 120px;
+  border: 1px solid rgb(148, 139, 139);
+}*/
+
+body{
+  background-color: burlywood;
+}
+
+.logo{
+  width: 32px;
+}
+
+.nav-link{
+  color: rgb(224, 159, 73);
+}
+
+.nav-link:hover{
+  color: rgb(255, 136, 0);
+}
+
+.galeria-foto{
+  width: 128px;
+}
+
+
+.my-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("img/photographer.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-hero-text-font{
+  font-family: 'Pacifico', cursive;
+}
+
+.my-hero2 .container{
+  height: 300px;
+}
